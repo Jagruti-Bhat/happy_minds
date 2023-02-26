@@ -18,3 +18,7 @@ export {default as Story3} from "./Story3"
 export {default as Story4} from "./Story4"
 export {default as Story5} from "./Story5"
 export {default as Story6} from "./Story6"
+export {default as FirstPage} from "./FirstPage"
+export {default as Login} from "./Login"
+export {default as Register} from "./Register"
+export {default as SOSitem} from './SOSitem'

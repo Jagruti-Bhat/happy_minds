@@ -1,18 +1,12 @@
-// import React from 'react'
+import React from 'react'
+import SOSitem from './SOSitem'
 
-// const Angry = () => {
-//   return (
-//     function onInput() {
-//         var input = document.getElementById("typeinp");
-//         var currentVal = input.value;
-//         this.setState({
-//           value: currentVal
-//         });
-//     }
-    
-//     <input id="typeinp" type="range" min="0" max="5" step="1" defaultValue="3" onInput={this.onInput.bind(this)}/>
-   
-//   )
-// }
+const Angry = () => {
+  return (
+    <div>Angry
+        <SOSitem />
+    </div>
+  )
+}
 
-// export default Angry
+export default Angry
