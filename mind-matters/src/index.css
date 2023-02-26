@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Labrada&family=Tilt+Warp&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.font-bold{
+  font-size: large;
+}
+
+.rounded-full{
+  margin-left:80px;
+  margin-top:80px
+}
+
+.font{
+  font-family: 'Tilt Warp';
+  font-size:100px;
+  margin-top: 80px;
+}
+
+.p-font{
+  font-family: "Great Vibes", cursive;
+  font-size:27px;
+}
+
+.grid{
+  margin-top: 100px;
+}
+
+.footer{
+  margin-top: 70px;;
+}
+
+.emotions{
+  margin-top:50px;
+  font-family: 'Tilt Warp';
+}
+
+.sos-class{
+  margin: 80px;
+  font-family: 'Labrada';
+  
+}
+
+.emotions-emoji{
+  width:80%;
+  height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emoji-card{
+  width:100%;
+  height: 80%;
+}
+
+
+.resources-para{
+  margin-top: 50px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.therapists{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.emergency{
+  padding:20px;
+  margin-top:50px;
+}
