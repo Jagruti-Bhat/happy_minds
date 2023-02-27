@@ -4,7 +4,7 @@ import GetSOS from './GetSOS'
 
 const Angry = () => {
   return (
-    <div>Angry
+    <div>
         <SOSitem mood="angry" />
         <GetSOS />
 
