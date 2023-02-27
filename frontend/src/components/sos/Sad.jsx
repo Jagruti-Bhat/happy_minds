@@ -1,11 +1,11 @@
 import React from 'react'
 import SOSitem from '../SOSitem'
-const Calm = () => {
+const sad = () => {
   return (
-    <div>Calm
-      <SOSitem mood="calm" />
+    <div>Sad 
+        <SOSitem mood="sad" />
     </div>
   )
 }
 
-export default Calm
+export default sad
