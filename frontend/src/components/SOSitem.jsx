@@ -63,7 +63,7 @@ const SOSitem = ({mood}) => {
                    <label className='identify text-md'>
                     What physical sensations do you feel when you feel {mood}
                    <br></br>
-                   <input className='input-class1 h-2/5 w-2/5'
+                   <input className='input-class1 h-2/5 w-2/5 border-2 rounded'
                     type="text"
                     placeholder='Enter physical sensations'
                     name="physicalSensations"
@@ -71,7 +71,7 @@ const SOSitem = ({mood}) => {
                     onChange={sHandleChange}
                      /><br></br>
                    </label>
-                     <input className='input-class1 h-2/5 w-2/5'
+                     <input className='input-class1 h-2/5 w-2/5 border-2 rounded'
                      type="text"
                      placeholder='Enter physical sensations'
                      name="exercise"
@@ -83,7 +83,7 @@ const SOSitem = ({mood}) => {
                      <label className='identify text-md '>
                         Let's try to identify a more specific feeling
                      <br></br>
-                     <input className='input-class2 h-2/5 w-2/5'
+                     <input className='input-class2 h-2/5 w-2/5 border-2 rounded'
                       type="text"
                       name="specifiedFeeling"
                       placeholder='Enter specific feeling'
@@ -94,7 +94,7 @@ const SOSitem = ({mood}) => {
                      <section className='h-screen'>
                      <label className='identify text-md'>What was your trigger event or situation
                         that made you feel stressed?<br></br>
-                     <input className='input-class3 h-2/5 w-2/5'
+                     <input className='input-class3 h-2/5 w-2/5 border-2 rounded'
                       type="text"
                       name="triggerEvent"
                       placeholder='Enter trigger event'
@@ -107,7 +107,7 @@ const SOSitem = ({mood}) => {
                 <div >
                    <label className='identify text-md'>
                     List 3 things that you are grateful for :<br></br>
-                   <input className='input-class4 h-1/2 w-1/2'
+                   <input className='input-class4 h-2/5 w-2/5 border-2 rounded'
                     type="text"
                     name="grateful"
                     placeholder='You are grateful for'
