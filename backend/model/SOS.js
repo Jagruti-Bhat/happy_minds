@@ -21,8 +21,8 @@ const SOSSchema = new mongoose.Schema({
             values:["angry","stressed","calm","happy","sad","panic","empty","overwhelmed","lonely"]
         }
     },
-    thoughts:[
-        {physicalSensations : {
+    thoughts:{
+        physicalSensations : {
             type:String,
         },
         exercise:{
@@ -35,8 +35,8 @@ const SOSSchema = new mongoose.Schema({
             type:String
         }
 
-    }
-    ],
+    
+},
     grateful:{
         type:String
     },

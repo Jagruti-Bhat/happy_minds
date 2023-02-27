@@ -9,7 +9,7 @@ exports.add =BigPromise(async(req,res,next)=>{
 
     const {intensityB, intensityE,emotion,thoughts,grateful,date}= req.body
 
-    const user = req.user._id
+    const user = req.user.id
 
     if(!intensityB || !intensityE || !emotion){
         return next(new CustomError("intensityB and intensityE and emotion are required",400))

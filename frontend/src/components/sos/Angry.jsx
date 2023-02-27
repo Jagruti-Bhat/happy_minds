@@ -1,10 +1,10 @@
 import React from 'react'
-import SOSitem from './SOSitem'
+import SOSitem from '../SOSitem'
 
 const Angry = () => {
   return (
     <div>Angry
-        <SOSitem />
+        <SOSitem mood="angry" />
     </div>
   )
 }
