@@ -4,6 +4,8 @@ export {default as Navbar} from "./Navbar"
 export {default as Header} from "./Header"
 export {default as Cards} from "./Cards"
 export {default as Footer} from "./Footer"
+
+
 export {default as Sos} from "./Sos"
 export {default as Angry} from "./sos/Angry"
 export {default as Calm } from "./sos/Calm"
@@ -30,3 +32,5 @@ export {default as FirstPage} from "./FirstPage"
 export {default as Login} from "./Login"
 export {default as Register} from "./Register"
 export {default as SOSitem} from './SOSitem'
+
+export {default as SuperChat} from './chat/SuperChat'

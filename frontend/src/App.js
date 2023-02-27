@@ -4,7 +4,8 @@ import {Home, Navbar, Header, Cards,
   Footer, Sos, Communities,Addnew,Archive,Journal, Resources,
   Fixsleep,Story1,Story2,Story3,Story4,Story5,Story6,Register,
 FirstPage,Login,
-Happy,Angry,Calm,Lonely,Empty,Panic,Stressed,Sad} from "./components"
+Happy,Angry,Calm,Lonely,Empty,Panic,Stressed,Sad,
+SuperChat} from "./components"
 import {Link} from "react-router-dom"
 
 import { UserProvider } from "./context/UserContext";
@@ -46,6 +47,10 @@ function App() {
       <Route path="/sos/panic" element={<Panic />} />
       <Route path="/sos/stressed" element={<Stressed />} />
       <Route path="/sos/sad" element={<Sad />} />
+      </Routes>
+
+      <Routes>
+        {/* <Route path="/chat" element={<SuperChat />} /> */}
       </Routes>
       
     </BrowserRouter>
