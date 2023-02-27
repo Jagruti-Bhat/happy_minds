@@ -2,7 +2,7 @@ import React,{useState,useEffect} from 'react'
 import Axios from "axios"
 import ArchieveSosItem from './ArchieveSosItem'
 
-const GetSOS = () => {
+const GetSOS = ({mood,visible}) => {
     const [data,setData] =useState()
    const x =()=>{
     const url="http://localhost:4000/api/v1/user/getAllSOS"
@@ -11,7 +11,7 @@ const GetSOS = () => {
           Authorization: "Bearer "+localStorage.getItem("login")
         }}
         const emotion={
-            emotion:"angry"
+            emotion:mood
         }
     Axios.post(url,emotion,config)
     .then((response)=>{
@@ -26,7 +26,7 @@ const GetSOS = () => {
    }
   return (
     <div>
-        <button onClick={x}>get sos</button>
+        {/* <button onClick={x}>get sos</button> */}
       <div>
       {data? data.map((e)=>{
        return (
