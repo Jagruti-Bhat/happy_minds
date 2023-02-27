@@ -43,7 +43,7 @@ const SOSitem = ({mood}) => {
              <section className='h-screen'>
                 <div>
                 <h2 className='before text-2xl'>Before</h2>
-                <label className='text-justify-center meter-text'>
+                <label className='text-justify-center meter-text text-lg'>
                     Let's start with gauging how {mood} you are.
                     Tap the feeling meter to reflect the intensity of
                     your feeling
@@ -60,7 +60,7 @@ const SOSitem = ({mood}) => {
                
                <section className='h-screen'>
                 
-                   <label className='identify text-md'>
+                   <label className='identify text-lg'>
                     What physical sensations do you feel when you feel {mood}
                    <br></br>
                    <input className='input-class1 h-2/5 w-2/5 border-2 rounded'
@@ -80,7 +80,7 @@ const SOSitem = ({mood}) => {
                       /><br></br>
                       </section>
                       <section className='h-screen'>
-                     <label className='identify text-md '>
+                     <label className='identify text-lg '>
                         Let's try to identify a more specific feeling
                      <br></br>
                      <input className='input-class2 h-2/5 w-2/5 border-2 rounded'
@@ -92,7 +92,7 @@ const SOSitem = ({mood}) => {
                      </label><br></br>
                      </section>
                      <section className='h-screen'>
-                     <label className='identify text-md'>What was your trigger event or situation
+                     <label className='identify text-lg'>What was your trigger event or situation
                         that made you feel stressed?<br></br>
                      <input className='input-class3 h-2/5 w-2/5 border-2 rounded'
                       type="text"
@@ -105,7 +105,7 @@ const SOSitem = ({mood}) => {
                 
                 <section className='h-screen'>
                 <div >
-                   <label className='identify text-md'>
+                   <label className='identify text-lg'>
                     List 3 things that you are grateful for :<br></br>
                    <input className='input-class4 h-2/5 w-2/5 border-2 rounded'
                     type="text"
@@ -119,7 +119,7 @@ const SOSitem = ({mood}) => {
                 <div>
                 
                 <label><h2 className='after text-2xl'>After</h2>
-                    How are you feeling?
+                    <p className="text-lg">How are you feeling?</p>
                     <br></br>
                 <input className='slider'
                 type="range"
