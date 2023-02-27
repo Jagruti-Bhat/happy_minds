@@ -3,7 +3,7 @@ import SOSitem from '../SOSitem'
 
 const Angry = () => {
   return (
-    <div>Angry
+    <div>
         <SOSitem mood="angry" />
     </div>
   )

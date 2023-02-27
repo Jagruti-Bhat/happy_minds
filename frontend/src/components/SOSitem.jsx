@@ -39,77 +39,102 @@ const SOSitem = ({mood}) => {
   return (
     <div>
         <form onSubmit={handleSubmit}>
-             <section>
+             <section className='text-center '>
+             <section className='h-screen'>
                 <div>
-                <label>
+                <h2 className='before text-2xl'>Before</h2>
+                <label className='text-justify-center meter-text'>
                     Let's start with gauging how {mood} you are.
                     Tap the feeling meter to reflect the intensity of
                     your feeling
-                <input
+                    <br></br>
+                <input className='slider'
                 type="range"
                 name="intensityB"
                 onChange={handleChange}
                 value={input.intensityB || ""} />
-                <p>{input.intensityB}</p>
+                <p className='number'>{input.intensityB}</p>
                 </label>
                 </div>
+                </section>
                
-                <div>
-                   <label>
+               <section className='h-screen'>
+                
+                   <label className='identify text-md'>
                     What physical sensations do you feel when you feel {mood}
-                   <input
+                   <br></br>
+                   <input className='input-class1 h-2/5 w-2/5'
                     type="text"
+                    placeholder='Enter physical sensations'
                     name="physicalSensations"
                     value={sinput.physicalSensations || ""}
                     onChange={sHandleChange}
-                     />
+                     /><br></br>
                    </label>
-                     <input
+                     <input className='input-class1 h-2/5 w-2/5'
                      type="text"
+                     placeholder='Enter physical sensations'
                      name="exercise"
                      value={sinput.exercise || ""}
                      onChange={sHandleChange}
-                      />
-                     <label>
+                      /><br></br>
+                      </section>
+                      <section className='h-screen'>
+                     <label className='identify text-md '>
                         Let's try to identify a more specific feeling
-                     <input
+                     <br></br>
+                     <input className='input-class2 h-2/5 w-2/5'
                       type="text"
                       name="specifiedFeeling"
+                      placeholder='Enter specific feeling'
                       value= {sinput.specifiedFeeling || ""}
                       onChange={sHandleChange} />
-                     </label>
-                     <label>what was your trigger event or situation
-                        that made you feel stressed?
-                     <input
+                     </label><br></br>
+                     </section>
+                     <section className='h-screen'>
+                     <label className='identify text-md'>What was your trigger event or situation
+                        that made you feel stressed?<br></br>
+                     <input className='input-class3 h-2/5 w-2/5'
                       type="text"
                       name="triggerEvent"
+                      placeholder='Enter trigger event'
                       value ={sinput.triggerEvent || ""}
                       onChange={sHandleChange} />
                      </label>
-                </div>
-                <div>
-                   <label>
-                    List 3 things that you are grateful for :
-                   <input
+                     </section>
+                
+                <section className='h-screen'>
+                <div >
+                   <label className='identify text-md'>
+                    List 3 things that you are grateful for :<br></br>
+                   <input className='input-class4 h-1/2 w-1/2'
                     type="text"
                     name="grateful"
+                    placeholder='You are grateful for'
                     value={input.grateful || ""}
                     onChange={handleChange} />
                    </label>
                 </div>
+                </section>
                 <div>
-                <label>
+                
+                <label><h2 className='after text-2xl'>After</h2>
                     How are you feeling?
-                <input
+                    <br></br>
+                <input className='slider'
                 type="range"
                 name="intensityE"
                 onChange={handleChange}
                 value={input.intensityBE || ""} />
-                <p>{input.intensityE}</p>
+                <p className='number'>{input.intensityE}</p>
                 </label>
                 </div>
-            </section>
-            <input type="submit" />
+                            </section>
+            <div className="flex justify-center items-center mt-8 pb-8">
+                <button className="bg-blue-500 rounded-md h-10 w-16" type="submit"> Submit </button>
+              </div>
+              
+            {/* <input type="submit" /> */}
 
         </form>
         

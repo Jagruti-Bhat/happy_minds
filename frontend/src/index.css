@@ -88,3 +88,62 @@ code {
   padding:20px;
   margin-top:50px;
 }
+
+.slider{
+  width: 300px;
+  height: 100px;
+}
+
+
+.before{
+  margin-top: 50px;
+  font-family: 'Tilt Warp';
+}
+
+.after{
+  margin-top: 80px;
+  font-family: 'Tilt Warp';
+}
+
+.number{
+  font-family: 'Tilt Warp';
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.meter-text{
+  margin-top: 20px;
+}
+
+.identify{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  font-family: 'Tilt Warp';
+}
+
+.identify-div{
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.input-class1{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.input-class2{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  /* margin-top:30px; */
+}
+
+.input-class4{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  /* margin-top:30px; */
+}
+
+.input-class3{
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
