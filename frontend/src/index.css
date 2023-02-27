@@ -98,6 +98,7 @@ code {
 .before{
   margin-top: 50px;
   font-family: 'Tilt Warp';
+  margin-bottom: 50px;
 }
 
 .after{
@@ -112,7 +113,7 @@ code {
 }
 
 .meter-text{
-  margin-top: 20px;
+  margin-top: 50px;
 }
 
 .identify{

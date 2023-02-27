@@ -39,7 +39,7 @@ const SOSitem = ({mood}) => {
   return (
     <div>
         <form onSubmit={handleSubmit}>
-             <section className='text-center '>
+             <section className='text-center'>
              <section className='h-screen'>
                 <div>
                 <h2 className='before text-2xl'>Before</h2>
@@ -48,7 +48,7 @@ const SOSitem = ({mood}) => {
                     Tap the feeling meter to reflect the intensity of
                     your feeling
                     <br></br>
-                <input className='slider'
+                <input className='slider h-2 w-2'
                 type="range"
                 name="intensityB"
                 onChange={handleChange}
